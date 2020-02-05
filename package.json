@@ -1,13 +1,18 @@
 {
   "name": "strapi-provider-upload-aws-s3",
   "version": "3.0.0-beta.18.7",
-  "description": "AWS S3 provider for strapi upload",
-  "homepage": "http://strapi.io",
+  "description": "AWS S3 provider for strapi upload with custom endpoint",
+  "homepage": "https://github.com/bristweb/strapi-provider-upload-aws-s3-custom-endpoint",
   "keywords": [
     "upload",
     "aws",
     "s3",
-    "strapi"
+    "strapi",
+    "endpoint",
+    "google",
+    "cloud",
+    "storage",
+    "wasabi"
   ],
   "directories": {
     "lib": "./lib"
@@ -20,23 +25,21 @@
     "isProvider": true
   },
   "author": {
-    "email": "hi@strapi.io",
-    "name": "Strapi team",
-    "url": "http://strapi.io"
+    "name": "Bristlecone Web",
+    "url": "https://bristleconeweb.com"
   },
   "maintainers": [
     {
-      "name": "Strapi team",
-      "email": "hi@strapi.io",
-      "url": "http://strapi.io"
+      "name": "Bristlecone Web",
+      "url": "https://bristleconeweb.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "https://github.com/bristweb/strapi-provider-upload-aws-s3-custom-endpoint.git"
   },
   "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+    "url": "https://github.com/bristweb/strapi-provider-upload-aws-s3-custom-endpoint/issues"
   },
   "engines": {
     "node": ">=10.0.0",
@@ -45,6 +48,5 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"no tests yet\""
-  },
-  "gitHead": "761ad68392c64a43507fa819640289e7e8224cd3"
+  }
 }
